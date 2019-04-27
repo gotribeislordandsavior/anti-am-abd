@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 201904261100
+! Version: 201904271229
 ! Title: GT's AM ABP List
-! Last modified: 26 Apr 2019 11:00 UTC
+! Last modified: 27 Apr 2019 12:29 UTC
 ! Expires: 1 day (update frequency)
 ||a.teads.tv^
 ||ad.doubleclick.net^
@@ -23,6 +23,7 @@
 ||cdn6.wibbitz.com^
 ||cdn7.wibbitz.com^
 ||connect.countent.com^
+||consent.cookiebot.com^
 ||ddrn6tjst80qg.cloudfront.net^
 ||disqusads.com^
 ||edge.simplereach.com^
@@ -40,6 +41,7 @@
 ||outstreamplayer.com^
 ||ping.chartbeat.net^
 ||popup.taboola.com^
+||profusesupport.com^
 ||referrer.disqus.com^
 ||revcontent.com^
 ||s.skimresources.com^
