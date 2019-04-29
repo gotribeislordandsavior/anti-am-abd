@@ -1,11 +1,12 @@
 [Adblock Plus 2.0]
-! Version: 201904271551
+! Version: 201904292151
 ! Title: GT's AM ABP List
-! Last modified: 27 Apr 2019 15:51 UTC
+! Last modified: 29 Apr 2019 21:51 UTC
 ! Expires: 1 day (update frequency)
 ||a.teads.tv^
 ||ad.doubleclick.net^
 ||ads.adthrive.com^
+||ads.revjet.com^
 ||api.engage.im^
 ||api.revcontent.com^
 ||api.wibbitz.com^
