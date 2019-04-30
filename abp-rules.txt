@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 201904301704
+! Version: 201904301744
 ! Title: GT's AM ABP List
-! Last modified: 30 Apr 2019 17:04 UTC
+! Last modified: 30 Apr 2019 17:44 UTC
 ! Expires: 1 day (update frequency)
 ||a.rfihub.com^
 ||a.teads.tv^
@@ -140,6 +140,7 @@
 ||jadserve.postrelease.com^
 ||js.agkn.com^
 ||labs-cdn.revcontent.com^
+||live.rezync.com^
 ||load77.exelator.com^
 ||loadm.exelator.com^
 ||loadus.exelator.com^
