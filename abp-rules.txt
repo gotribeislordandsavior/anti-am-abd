@@ -311,4 +311,5 @@ www.mediaite.com##.c-adblocker-modal-submessage
 www.mediaite.com##.c-adblocker-modal-wrap
 www.mediaite.com##.has-adblock-detected
 www.mediaite.com##.o-zergnet
+www.mediaite.com##.promo-unit
 @@||www.mediaite.com/adbait/adsbygoogle.js^
