@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 201907181429
+! Version: 201907191730
 ! Title: GT's AM ABP List
-! Last modified: 18 Jul 2019 14:29 UTC
+! Last modified: 19 Jul 2019 17:30 UTC
 ! Expires: 1 hour (update frequency)
 ||a.rfihub.com^$domain=mediaite.com
 ||a.teads.tv^$domain=mediaite.com
@@ -317,3 +317,6 @@ www.mediaite.com##.promo-unit
 @@||www.mediaite.com/adbaitplus/adsbygoogle.js^
 ! LOL, you're not kidding! Tell Dan to hire better writers instead of investing money in anti-adblocking code.
 @@||www.mediaite.com/adbaitplus/ab/adsbygoogle.js^
+! LOL, you dumbfucks! Also tell Dan to hire better editors instead of investing money in anti-adblocking code. More creative javascript coders would probably help, too.
+@@||www.mediaite.com/dswo3w/adsbygoogle.js^
+@@||www.mediaite.com/*/adsbygoogle.js^
