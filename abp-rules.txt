@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 201907191730
+! Version: 201907220320
 ! Title: GT's AM ABP List
-! Last modified: 19 Jul 2019 17:30 UTC
+! Last modified: 22 Jul 2019 03:20 UTC
 ! Expires: 1 hour (update frequency)
 ||a.rfihub.com^$domain=mediaite.com
 ||a.teads.tv^$domain=mediaite.com
@@ -304,12 +304,12 @@ www.mediaite.com##.adthrive-ad
 www.mediaite.com##.adthrive-dynamic
 www.mediaite.com##.adthrive-footer
 www.mediaite.com##.adthrive-sticky
-www.mediaite.com##.c-adblocker-modal-content
-www.mediaite.com##.c-adblocker-modal-logo
-www.mediaite.com##.c-adblocker-modal-message
-www.mediaite.com##.c-adblocker-modal-submessage
-www.mediaite.com##.c-adblocker-modal-wrap
-www.mediaite.com##.has-adblock-detected
+! www.mediaite.com##.c-adblocker-modal-content
+! www.mediaite.com##.c-adblocker-modal-logo
+! www.mediaite.com##.c-adblocker-modal-message
+! www.mediaite.com##.c-adblocker-modal-submessage
+! www.mediaite.com##.c-adblocker-modal-wrap
+! www.mediaite.com##.has-adblock-detected
 www.mediaite.com##.o-zergnet
 www.mediaite.com##.promo-unit
 @@||www.mediaite.com/adbait/adsbygoogle.js^
