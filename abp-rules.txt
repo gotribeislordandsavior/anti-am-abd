@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 201907220320
+! Version: 201908111933
 ! Title: GT's AM ABP List
-! Last modified: 22 Jul 2019 03:20 UTC
+! Last modified: 11 Aug 2019 19:33 UTC
 ! Expires: 1 hour (update frequency)
 ||a.rfihub.com^$domain=mediaite.com
 ||a.teads.tv^$domain=mediaite.com
@@ -157,6 +157,7 @@
 ||native.sharethrough.com^$domain=mediaite.com
 ||nativo.openadid.adnxs.com^$domain=mediaite.com
 ||nym1.ib.adnxs.com^$domain=mediaite.com
+||object.center^$domain=mediaite.com
 ||odr.mookie1.com^$domain=mediaite.com
 ||outstreamplayer.com^$domain=mediaite.com
 ||p.adsymptotic.com^$domain=mediaite.com
@@ -177,6 +178,7 @@
 ||pm.w55c.net^$domain=mediaite.com
 ||pmp.mxptint.net^$domain=mediaite.com
 ||popup.taboola.com^$domain=mediaite.com
+||powerad.ai^$domain=mediaite.com
 ||prebid.adnxs.com^$domain=mediaite.com
 ||profusesupport.com^$domain=mediaite.com
 ||ps.eyeota.net^$domain=mediaite.com
