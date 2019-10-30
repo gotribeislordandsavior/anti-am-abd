@@ -1,3 +1,4 @@
+# /etc/hosts format
 0.0.0.0 a2846.casalemedia.com
 0.0.0.0 a2.adform.net
 0.0.0.0 aa.agkn.com
