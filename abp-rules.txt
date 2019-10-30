@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 201910111751
+! Version: 201910300320
 ! Title: GT's AM ABP List
-! Last modified: 11 Oct 2019 17:51 UTC
+! Last modified: 30 Oct 2019 03:20 UTC
 ! Expires: 1 hour (update frequency)
 ||a.rfihub.com^$domain=mediaite.com
 ||a.teads.tv^$domain=mediaite.com
@@ -26,6 +26,7 @@
 ||ads.revjet.com^$domain=mediaite.com
 ||ads.yahoo.com^$domain=mediaite.com
 ||adservice.google.com^$domain=mediaite.com
+||adserver-us.adtech.advertising.com^$domain=mediaite.com
 ||aktrack.pubmatic.com^$domain=mediaite.com
 ||ap.lijit.com^$domain=mediaite.com
 ||api.engage.im^$domain=mediaite.com
@@ -125,6 +126,7 @@
 ||gum.criteo.com^$domain=mediaite.com
 ||hb.emxdgt.com^$domain=mediaite.com
 ||hb.undertone.com^$domain=mediaite.com
+||hb-api.omnitagjs.com^$domain=mediaite.com
 ||i.liadm.com^$domain=mediaite.com
 ||i.w55c.net^$domain=mediaite.com
 ||ib.adnxs.com^$domain=mediaite.com
@@ -256,6 +258,7 @@
 ||taboola.com.edgekey.net^$domain=mediaite.com
 ||taboola.com^$domain=mediaite.com
 ||taboolasyndication.com^$domain=mediaite.com
+||tag.bounceexchange.com^$domain=mediaite.com
 ||tag.crsspxl.com^$domain=mediaite.com
 ||tags.bluekai.com^$domain=mediaite.com
 ||tags.w55c.net^$domain=mediaite.com
