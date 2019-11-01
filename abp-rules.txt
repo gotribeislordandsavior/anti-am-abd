@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 201910300341
+! Version: 201911010213
 ! Title: GT's AM ABP List
-! Last modified: 30 Oct 2019 03:41 UTC
+! Last modified: 01 Nov 2019 02:13 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -262,6 +262,7 @@
 ||tapestry.tapad.com^$domain=mediaite.com
 ||tap.rubiconproject.com^$domain=mediaite.com
 ||teads.tv^$domain=mediaite.com
+||tempest.services.disqus.com^$domain=mediaite.com
 ||tlx.3lift.com^$domain=mediaite.com
 ||token.rubiconproject.com^$domain=mediaite.com
 ||tpc.googlesyndication.com^$domain=mediaite.com
