@@ -258,6 +258,7 @@
 0.0.0.0 tapestry.tapad.com
 0.0.0.0 tap.rubiconproject.com
 0.0.0.0 teads.tv
+0.0.0.0 tempest.services.disqus.com
 0.0.0.0 tlx.3lift.com
 0.0.0.0 token.rubiconproject.com
 0.0.0.0 tpc.googlesyndication.com
