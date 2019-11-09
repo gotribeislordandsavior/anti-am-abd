@@ -78,6 +78,7 @@
 0.0.0.0 ddrn6tjst80qg.cloudfront.net
 0.0.0.0 dis.criteo.com
 0.0.0.0 disqusads.com
+0.0.0.0 disqus-com.videoplayerhub.com
 0.0.0.0 disqus-d.openx.net
 0.0.0.0 districtm-match.dotomi.com
 0.0.0.0 dmp.adblade.com
