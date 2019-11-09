@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 201911010213
+! Version: 201911090650
 ! Title: GT's AM ABP List
-! Last modified: 01 Nov 2019 02:13 UTC
+! Last modified: 09 Nov 2019 06:50 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -82,6 +82,7 @@
 ||ddrn6tjst80qg.cloudfront.net^$domain=mediaite.com
 ||dis.criteo.com^$domain=mediaite.com
 ||disqusads.com^$domain=mediaite.com
+||disqus-com.videoplayerhub.com^$domain=mediaite.com
 ||disqus-d.openx.net^$domain=mediaite.com
 ||districtm-match.dotomi.com^$domain=mediaite.com
 ||dmp.adblade.com^$domain=mediaite.com
