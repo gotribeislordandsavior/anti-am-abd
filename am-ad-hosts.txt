@@ -190,7 +190,7 @@
 0.0.0.0 px.powerlinks.com
 0.0.0.0 rbp.mxptint.net
 0.0.0.0 rc2waycm-atl.netmng.com
-0.0.0.0 referrer.disqus.com
+# 0.0.0.0 referrer.disqus.com
 0.0.0.0 revcontent.com
 0.0.0.0 rp.gwallet.com
 0.0.0.0 rtb.gumgum.com
