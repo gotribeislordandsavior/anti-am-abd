@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 201911250908
+! Version: 201912271354
 ! Title: GT's AM ABP List
-! Last modified: 25 Nov 2019 09:08 UTC
+! Last modified: 27 Dec 2019 13:54 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -23,6 +23,7 @@
 ||ads.pubmatic.com^$domain=mediaite.com
 ||ads.revjet.com^$domain=mediaite.com
 ||ads.yahoo.com^$domain=mediaite.com
+||adthrive.com^$domain=mediaite.com
 ||ad.turn.com^$domain=mediaite.com
 ||aktrack.pubmatic.com^$domain=mediaite.com
 ||api.engage.im^$domain=mediaite.com
@@ -41,6 +42,7 @@
 ||bevo.us-east1.getpolymorph.com^$domain=mediaite.com
 ||bh.contextweb.com^$domain=mediaite.com
 ||bidder.criteo.com^$domain=mediaite.com
+||bounceexchange.com^$domain=mediaite.com
 ||b.scorecardresearch.com^$domain=mediaite.com
 ||bs.serving-sys.com^$domain=mediaite.com
 ||bttrack.com^$domain=mediaite.com
@@ -58,6 +60,7 @@
 ||cdn7.wibbitz.com^$domain=mediaite.com
 ||cdn.boomtrain.com^$domain=mediaite.com
 ||cdn.flashtalking.com^$domain=mediaite.com
+||cdn.onesignal.com^$domain=mediaite.com
 ||cdn.revcontent.com^$domain=mediaite.com
 ||cdn.stackadapt.com^$domain=mediaite.com
 ||cdn.taboola.com^$domain=mediaite.com
@@ -86,6 +89,7 @@
 ||disqus-d.openx.net^$domain=mediaite.com
 ||districtm-match.dotomi.com^$domain=mediaite.com
 ||dmp.adblade.com^$domain=mediaite.com
+||doubleclick.net^$domain=mediaite.com
 ||dpm.demdex.net^$domain=mediaite.com
 ||dsp.adfarm.adition.com^$domain=mediaite.com
 ||dsum-sec.casalemedia.com^$domain=mediaite.com
@@ -119,6 +123,7 @@
 ||feed.engage.im^$domain=mediaite.com
 ||g2.gumgum.com^$domain=mediaite.com
 ||gce-sc.bidswitch.net^$domain=mediaite.com
+||g.doubleclick.net^$domain=mediaite.com
 ||geo.moatads.com^$domain=mediaite.com
 ||googleads4.g.doubleclick.net^$domain=mediaite.com
 ||googleads.g.doubleclick.net^$domain=mediaite.com
@@ -160,9 +165,11 @@
 ||msec.xp1.ru4.com^$domain=mediaite.com
 ||native.sharethrough.com^$domain=mediaite.com
 ||nativo.openadid.adnxs.com^$domain=mediaite.com
+||ntv.io^$domain=mediaite.com
 ||nym1.ib.adnxs.com^$domain=mediaite.com
 ||object.center^$domain=mediaite.com
 ||odr.mookie1.com^$domain=mediaite.com
+||onesignal.com^$domain=mediaite.com
 ||outstreamplayer.com^$domain=mediaite.com
 ||p.adsymptotic.com^$domain=mediaite.com
 ||pagead2.googlesyndication.com^$domain=mediaite.com
@@ -192,8 +199,10 @@
 ||pxl.connexity.net^$domain=mediaite.com
 ||px.owneriq.net^$domain=mediaite.com
 ||px.powerlinks.com^$domain=mediaite.com
+||quantserve.com^$domain=mediaite.com
 ||rbp.mxptint.net^$domain=mediaite.com
 ||rc2waycm-atl.netmng.com^$domain=mediaite.com
+||referrer.disqus.com^$domain=mediaite.com
 ||revcontent.com^$domain=mediaite.com
 ||rp.gwallet.com^$domain=mediaite.com
 ||rtb.gumgum.com^$domain=mediaite.com
@@ -206,6 +215,7 @@
 ||s2.adform.net^$domain=mediaite.com
 ||s.amazon-adsystem.com^$domain=mediaite.com
 ||sb.scorecardresearch.com^$domain=mediaite.com
+||scorecardresearch.com^$domain=mediaite.com
 ||secure.adnxs.com^$domain=mediaite.com
 ||secure-assets.rubiconproject.com^$domain=mediaite.com
 ||secure-gl.imrworldwide.com^$domain=mediaite.com
@@ -306,8 +316,8 @@
 ||www.zergnet.com^$domain=mediaite.com
 ||x.bidswitch.net^$domain=mediaite.com
 ||x.dlx.addthis.com^$domain=mediaite.com
+||zergnet.com^$domain=mediaite.com
 ||z.moatads.com^$domain=mediaite.com
-! ||referrer.disqus.com^$domain=mediaite.com
 disqus.com#@#.comment__share
 disqus.com#@#.icon-facebook
 disqus.com#@#.icon-twitter
@@ -333,3 +343,4 @@ www.mediaite.com##.promo-unit
 ! LOL, you dumbfucks! Also tell Dan to hire better editors instead of investing money in anti-adblocking code. More creative javascript coders would probably help, too.
 @@||www.mediaite.com/dswo3w/adsbygoogle.js^
 @@||www.mediaite.com/*/adsbygoogle.js^
+@@||www.mediaite.com/*/adsbygoogle.js
