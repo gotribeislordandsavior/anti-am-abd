@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 201912271354
+! Version: 201912271406
 ! Title: GT's AM ABP List
-! Last modified: 27 Dec 2019 13:54 UTC
+! Last modified: 27 Dec 2019 14:06 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -202,7 +202,7 @@
 ||quantserve.com^$domain=mediaite.com
 ||rbp.mxptint.net^$domain=mediaite.com
 ||rc2waycm-atl.netmng.com^$domain=mediaite.com
-||referrer.disqus.com^$domain=mediaite.com
+! ||referrer.disqus.com^$domain=mediaite.com
 ||revcontent.com^$domain=mediaite.com
 ||rp.gwallet.com^$domain=mediaite.com
 ||rtb.gumgum.com^$domain=mediaite.com
