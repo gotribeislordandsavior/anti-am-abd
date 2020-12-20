@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202004092302
+! Version: 202012201141
 ! Title: GT's AM ABP List
-! Last modified: 09 Apr 2020 23:02 UTC
+! Last modified: 20 Dec 2020 11:41 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -15,7 +15,7 @@
 ||ade.googlesyndication.com^$domain=mediaite.com
 ||adelphic-partners.tremorhub.com^$domain=mediaite.com
 ||ad.mail.ru^$domain=mediaite.com
-||ads.adthrive.com^$domain=mediaite.com
+@@||ads.adthrive.com^$domain=mediaite.com
 ||ads.avocet.io^$domain=mediaite.com
 ||ads.creative-serving.com^$domain=mediaite.com
 ||adserver-us.adtech.advertising.com^$domain=mediaite.com
@@ -26,6 +26,7 @@
 ||adthrive.com^$domain=mediaite.com
 ||ad.turn.com^$domain=mediaite.com
 ||aktrack.pubmatic.com^$domain=mediaite.com
+||ams.creativecdn.com^$domain=mediaite.com
 ||api.engage.im^$domain=mediaite.com
 ||api.revcontent.com^$domain=mediaite.com
 ||api.wibbitz.com^$domain=mediaite.com
@@ -48,6 +49,7 @@
 ||bttrack.com^$domain=mediaite.com
 ||c1.adform.net^$domain=mediaite.com
 ||c1.rfihub.net^$domain=mediaite.com
+||c2.rfihub.net^$domain=mediaite.com
 ||cafemedia-d.openx.net^$domain=mediaite.com
 ||c.amazon-adsystem.com^$domain=mediaite.com
 ||cdn1.wibbitz.com^$domain=mediaite.com
@@ -60,6 +62,7 @@
 ||cdn7.wibbitz.com^$domain=mediaite.com
 ||cdn.boomtrain.com^$domain=mediaite.com
 ||cdn.flashtalking.com^$domain=mediaite.com
+||cdn.mgid.com^$domain=mediaite.com
 ||cdn.onesignal.com^$domain=mediaite.com
 ||cdn.revcontent.com^$domain=mediaite.com
 ||cdn.stackadapt.com^$domain=mediaite.com
@@ -71,13 +74,16 @@
 ||cm.adgrx.com^$domain=mediaite.com
 ||cm.eyereturn.com^$domain=mediaite.com
 ||cm.g.doubleclick.net^$domain=mediaite.com
+||cm.mgid.com^$domain=mediaite.com
 ||cm.revcontent.com^$domain=mediaite.com
+||cm.smadex.com^$domain=mediaite.com
 ||cms.analytics.yahoo.com^$domain=mediaite.com
 ||cms.quantserve.com^$domain=mediaite.com
 ||connect.countent.com^$domain=mediaite.com
 ||consent.cookiebot.com^$domain=mediaite.com
 ||contextual.media.net^$domain=mediaite.com
 ||cookie.brealtime.com^$domain=mediaite.com
+||creativecdn.com^$domain=mediaite.com
 ||csm2waycm-atl.netmng.com^$domain=mediaite.com
 ||csm.va.us.criteo.net^$domain=mediaite.com
 ||cti.w55c.net^$domain=mediaite.com
@@ -110,6 +116,7 @@
 ||eqv-512.eqv-rtb1.rfihub.com^$domain=mediaite.com
 ||eqv-529.eqv-rtb1.rfihub.com^$domain=mediaite.com
 ||esd-secure.taboola.com.edgekey.net^$domain=mediaite.com
+||eus.rubiconproject.com^$domain=mediaite.com
 ||events-us-east-1.ipredictive.com^$domain=mediaite.com
 ||evm1.stackadapt.com^$domain=mediaite.com
 ||evm2.stackadapt.com^$domain=mediaite.com
@@ -172,6 +179,7 @@
 ||onesignal.com^$domain=mediaite.com
 ||outstreamplayer.com^$domain=mediaite.com
 ||p.adsymptotic.com^$domain=mediaite.com
+||p.rfihub.com^$domain=mediaite.com
 ||pagead2.googlesyndication.com^$domain=mediaite.com
 ||pd.sharethis.com^$domain=mediaite.com
 ||ping.chartbeat.net^$domain=mediaite.com
@@ -208,6 +216,7 @@
 ||rtb.gumgum.com^$domain=mediaite.com
 ||rtb.mfadsrvr.com^$domain=mediaite.com
 ||rtb-use.mfadsrvr.com^$domain=mediaite.com
+||rtb-usw.mfadsrvr.com^$domain=mediaite.com
 ||rubicon-match.dotomi.com^$domain=mediaite.com
 ||rudy.adsnative.com^$domain=mediaite.com
 ||rules.quantcount.com^$domain=mediaite.com
@@ -220,14 +229,16 @@
 ||secure-assets.rubiconproject.com^$domain=mediaite.com
 ||secure-gl.imrworldwide.com^$domain=mediaite.com
 ||secure.insightexpressai.com^$domain=mediaite.com
-||securepubads.g.doubleclick.net^$domain=mediaite.com
+@@||securepubads.g.doubleclick.net^$domain=mediaite.com
 ||secure.quantserve.com^$domain=mediaite.com
 ||secure-us.imrworldwide.com^$domain=mediaite.com
 ||segments.company-target.com^$domain=mediaite.com
 ||servedby.flashtalking.com^$domain=mediaite.com
 ||servedby.revcontent.com^$domain=mediaite.com
+||servicer.mgid.com^$domain=mediaite.com
 ||simage2.pubmatic.com^$domain=mediaite.com
 ||simage4.pubmatic.com^$domain=mediaite.com
+||s-img.mgid.com^$domain=mediaite.com
 ||simple-cdn.s3.amazonaws.com^$domain=mediaite.com
 ||s.ntv.io^$domain=mediaite.com
 ||srv.stackadapt.com^$domain=mediaite.com
