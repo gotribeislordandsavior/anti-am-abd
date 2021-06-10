@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202101100651
+! Version: 202106101216
 ! Title: GT's AM ABP List
-! Last modified: 10 Jan 2021 06:51 UTC
+! Last modified: 10 Jun 2021 12:16 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -355,6 +355,8 @@ disqus.com#@#.icon-facebook
 disqus.com#@#.icon-twitter
 disqus.com#@#.link_url
 disqus.com#@#.share__button
+! unbreak default uBlock Origin uAssets filter by whitelisting adthrive.config for media player
+mediaite.com#@#+js(aopr, adthrive.config)
 www.mediaite.com##.adthrive-ad
 www.mediaite.com##.adthrive-dynamic
 www.mediaite.com##.adthrive-footer
