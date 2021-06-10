@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202106101216
+! Version: 202106101513
 ! Title: GT's AM ABP List
-! Last modified: 10 Jun 2021 12:16 UTC
+! Last modified: 10 Jun 2021 15:13 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -59,8 +59,11 @@
 ||c1.adform.net^$domain=mediaite.com
 ||c1.rfihub.net^$domain=mediaite.com
 ||c2.rfihub.net^$domain=mediaite.com
+||c2shb.ssp.yahoo.com^$domain=mediaite.com
 ||cafemedia-d.openx.net^$domain=mediaite.com
 ||c.amazon-adsystem.com^$domain=mediaite.com
+||c.disquscdn.com/js/dist/prebid.4.39.0.js$script,domain=mediaite.com
+||c.disquscdn.com/js/dist/prebid.*.js$script,domain=mediaite.com
 ||cdn1.wibbitz.com^$domain=mediaite.com
 ||cdn2.lockerdome.com^$domain=mediaite.com
 ||cdn2.teads.tv^$domain=mediaite.com
@@ -72,6 +75,7 @@
 ||cdn7.wibbitz.com^$domain=mediaite.com
 ||cdn.ampproject.org^$domain=mediaite.com
 ||cdn.boomtrain.com^$domain=mediaite.com
+||cdn.districtm.io^$domain=mediaite.com
 ||cdn.flashtalking.com^$domain=mediaite.com
 ||cdn.mgid.com^$domain=mediaite.com
 ||cdn.onesignal.com^$domain=mediaite.com
@@ -108,6 +112,7 @@
 ||disqus-d.openx.net^$domain=mediaite.com
 ||districtm-match.dotomi.com^$domain=mediaite.com
 ||dmp.adblade.com^$domain=mediaite.com
+||dmx.districtm.io^$domain=mediaite.com
 ! ||doubleclick.net^$domain=mediaite.com
 ||dpm.demdex.net^$domain=mediaite.com
 ||dsp.adfarm.adition.com^$domain=mediaite.com
@@ -154,6 +159,7 @@
 ||hb-api.omnitagjs.com^$domain=mediaite.com
 ||hb.emxdgt.com^$domain=mediaite.com
 ||hb.undertone.com^$domain=mediaite.com
+||hbopenbid.pubmatic.com^$domain=mediaite.com
 ||ib.adnxs.com^$domain=mediaite.com
 ||idsync.reson8.com^$domain=mediaite.com
 ||idsync.rlcdn.com^$domain=mediaite.com
@@ -169,6 +175,8 @@
 ||i.w55c.net^$domain=mediaite.com
 ||jadserve.postrelease.com^$domain=mediaite.com
 ||js.agkn.com^$domain=mediaite.com
+||jsc.mgid.com^$domain=mediaite.com
+||krk.kargo.com^$domain=mediaite.com
 ||labs-cdn.revcontent.com^$domain=mediaite.com
 ||live.rezync.com^$domain=mediaite.com
 ||live.sekindo.com^$domain=mediaite.com
@@ -193,10 +201,13 @@
 ||object.center^$domain=mediaite.com
 ||odr.mookie1.com^$domain=mediaite.com
 ||onesignal.com^$domain=mediaite.com
+||onetag-sys.com^$domain=mediaite.com
 ||outstreamplayer.com^$domain=mediaite.com
 ||p.adsymptotic.com^$domain=mediaite.com
 ||pagead2.googlesyndication.com^$domain=mediaite.com
+||pandg.tapad.com^$domain=mediaite.com
 ||pd.sharethis.com^$domain=mediaite.com
+||pghub.io^$domain=mediaite.com
 ||ping.chartbeat.net^$domain=mediaite.com
 ||pippio.com^$domain=mediaite.com
 ||pixel.adsafeprotected.com^$domain=mediaite.com
@@ -238,6 +249,7 @@
 ||rules.quantcount.com^$domain=mediaite.com
 ||s0.2mdn.net^$domain=mediaite.com
 ||s2.adform.net^$domain=mediaite.com
+||safeframe.googlesyndication.com^$domain=mediaite.com
 ||s.amazon-adsystem.com^$domain=mediaite.com
 ||sb.scorecardresearch.com^$domain=mediaite.com
 ||scorecardresearch.com^$domain=mediaite.com
@@ -316,6 +328,7 @@
 ||um2.eqads.com^$domain=mediaite.com
 ||um.simpli.fi^$domain=mediaite.com
 ||unpkg.com^$domain=mediaite.com
+||u.openx.net^$domain=mediaite.com
 ||urc.taboolasyndication.com^$domain=mediaite.com
 ||us-east-sync.bidswitch.net^$domain=mediaite.com
 ||usermatch.krxd.net^$domain=mediaite.com
@@ -350,6 +363,8 @@
 ||x.dlx.addthis.com^$domain=mediaite.com
 ||zergnet.com^$domain=mediaite.com
 ||z.moatads.com^$domain=mediaite.com
+disqus.com##.advertisement
+disqus.com###container-inthread
 disqus.com#@#.comment__share
 disqus.com#@#.icon-facebook
 disqus.com#@#.icon-twitter
@@ -361,6 +376,7 @@ www.mediaite.com##.adthrive-ad
 www.mediaite.com##.adthrive-dynamic
 www.mediaite.com##.adthrive-footer
 www.mediaite.com##.adthrive-sticky
+www.mediaite.com#@#.c-article-nav-arrows
 ! www.mediaite.com##.c-adblocker-modal-content
 ! www.mediaite.com##.c-adblocker-modal-logo
 ! www.mediaite.com##.c-adblocker-modal-message
