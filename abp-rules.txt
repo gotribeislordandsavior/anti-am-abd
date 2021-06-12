@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202106101513
+! Version: 202106122357
 ! Title: GT's AM ABP List
-! Last modified: 10 Jun 2021 15:13 UTC
+! Last modified: 12 Jun 2021 23:57 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -189,6 +189,7 @@
 ||match.adsrvr.org^$domain=mediaite.com
 ||match.rundsp.com^$domain=mediaite.com
 ||match.taboola.com^$domain=mediaite.com
+@@||mediaite.com^*/track/
 ||mid.rkdms.com^$domain=mediaite.com
 ||ml314.com^$domain=mediaite.com
 ||motifinvesting.go2cloud.org^$domain=mediaite.com
