@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202106122357
+! Version: 202106150200
 ! Title: GT's AM ABP List
-! Last modified: 12 Jun 2021 23:57 UTC
+! Last modified: 15 Jun 2021 02:00 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -36,6 +36,7 @@
 ||ams.creativecdn.com^$domain=mediaite.com
 ||api.engage.im^$domain=mediaite.com
 ||api.revcontent.com^$domain=mediaite.com
+||api.rlcdn.com^$domain=mediaite.com
 ||api.wibbitz.com^$domain=mediaite.com
 ||ap.lijit.com^$domain=mediaite.com
 ||a.rfihub.com^$domain=mediaite.com
@@ -144,6 +145,7 @@
 ||ewr-382.ewr-rtb1.rfihub.com^$domain=mediaite.com
 ||ewr-416.ewr-rtb1.rfihub.com^$domain=mediaite.com
 ||ewr-420.ewr-rtb1.rfihub.com^$domain=mediaite.com
+||extract.services.disqus.com^$domain=mediaite.com
 ||fastlane.rubiconproject.com^$domain=mediaite.com
 ||feed.engage.im^$domain=mediaite.com
 ||fundingchoicesmessages.google.com^$domain=mediaite.com
@@ -154,13 +156,16 @@
 ||googleads4.g.doubleclick.net^$domain=mediaite.com
 ||googleads.g.doubleclick.net^$domain=mediaite.com
 ||google-analytics.com^$domain=mediaite.com
+||grid.bidswitch.net^$domain=mediaite.com
 ||gu.dyntrk.com^$domain=mediaite.com
 ||gum.criteo.com^$domain=mediaite.com
 ||hb-api.omnitagjs.com^$domain=mediaite.com
 ||hb.emxdgt.com^$domain=mediaite.com
 ||hb.undertone.com^$domain=mediaite.com
 ||hbopenbid.pubmatic.com^$domain=mediaite.com
+||htlb.casalemedia.com^$domain=mediaite.com
 ||ib.adnxs.com^$domain=mediaite.com
+||id5-sync.com^$domain=mediaite.com
 ||idsync.reson8.com^$domain=mediaite.com
 ||idsync.rlcdn.com^$domain=mediaite.com
 ||i.liadm.com^$domain=mediaite.com
@@ -176,8 +181,10 @@
 ||jadserve.postrelease.com^$domain=mediaite.com
 ||js.agkn.com^$domain=mediaite.com
 ||jsc.mgid.com^$domain=mediaite.com
+||js-sec.indexww.com^$domain=mediaite.com
 ||krk.kargo.com^$domain=mediaite.com
 ||labs-cdn.revcontent.com^$domain=mediaite.com
+||link.theplatform.com^$domain=mediaite.com
 ||live.rezync.com^$domain=mediaite.com
 ||live.sekindo.com^$domain=mediaite.com
 ||load77.exelator.com^$domain=mediaite.com
@@ -371,6 +378,18 @@ disqus.com#@#.icon-facebook
 disqus.com#@#.icon-twitter
 disqus.com#@#.link_url
 disqus.com#@#.share__button
+@@||assets-jpcust.jwpsrv.com^$domain=mediaite.com
+@@||cdn.jwplayer.com^$domain=mediaite.com
+@@||content.jwplatform.com^$domain=mediaite.com
+@@||jwpcdn.com^$domain=mediaite.com
+@@||jwplatform.com^$domain=mediaite.com
+@@||jwplayer.com^$domain=mediaite.com
+@@||jwplayer-dualstack.map.fastly.net^$domain=mediaite.com
+||jwpltx.com^$domain=mediaite.com
+@@||jwpsrv.com^$domain=mediaite.com
+||prd.jwpltx.com^$domain=mediaite.com
+@@||ssl.p.jwpcdn.com^$domain=mediaite.com
+@@||videos-cloudflare.jwpsrv.com^$domain=mediaite.com
 ! unbreak default uBlock Origin uAssets filter by whitelisting adthrive.config for media player
 mediaite.com#@#+js(aopr, adthrive.config)
 www.mediaite.com##.adthrive-ad
