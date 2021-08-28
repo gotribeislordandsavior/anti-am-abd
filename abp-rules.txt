@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202106150200
+! Version: 202108281948
 ! Title: GT's AM ABP List
-! Last modified: 15 Jun 2021 02:00 UTC
+! Last modified: 28 Aug 2021 19:48 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -404,6 +404,7 @@ www.mediaite.com#@#.c-article-nav-arrows
 ! www.mediaite.com##.c-adblocker-modal-wrap
 www.mediaite.com##.c-header-account-wrap
 www.mediaite.com##.c-menu-account
+www.mediaite.com##.c-skip
 ! www.mediaite.com##.has-adblock-detected
 www.mediaite.com###nav-subscribe
 www.mediaite.com##.o-account
@@ -414,9 +415,11 @@ www.mediaite.com##.o-jw-sub-promo
 www.mediaite.com##.o-nav-subscribe
 www.mediaite.com##.o-post__lock
 www.mediaite.com##.o-promo-unit
+www.mediaite.com##.o-skip
 www.mediaite.com##.o-subscribe-flair
 www.mediaite.com##.o-zergnet
 www.mediaite.com##.promo-unit
+www.mediaite.com##.u-menu-focus-break
 www.mediaite.com###subscribe-flair
 @@||www.mediaite.com/adbait/adsbygoogle.js^
 ! Really? Are you fucking kidding me? Stop wasting Dan's money.
