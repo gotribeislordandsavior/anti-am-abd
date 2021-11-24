@@ -1,13 +1,14 @@
 [Adblock Plus 2.0]
-! Version: 202108290257
+! Version: 202111241607
 ! Title: GT's AM ABP List
-! Last modified: 29 Aug 2021 02:57 UTC
+! Last modified: 24 Nov 2021 16:07 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
 ||aa.agkn.com^$domain=mediaite.com
 ||aax.amazon-adsystem.com^$domain=mediaite.com
 ||aax-us-east.amazon-adsystem.com^$domain=mediaite.com
+||accounts.google.com^$domain=mediaite.com
 ||acdn.adnxs.com^$domain=mediaite.com
 ||acuityplatform.com^$domain=mediaite.com
 ||adadvisor.net^$domain=mediaite.com
@@ -90,6 +91,7 @@
 ||cm.adgrx.com^$domain=mediaite.com
 ||cm.eyereturn.com^$domain=mediaite.com
 ||cm.g.doubleclick.net^$domain=mediaite.com
+||c.mgid.com^$domain=mediaite.com
 ||cm.mgid.com^$domain=mediaite.com
 ||cm.revcontent.com^$domain=mediaite.com
 ||cms.analytics.yahoo.com^$domain=mediaite.com
@@ -136,6 +138,7 @@
 ||eqv-529.eqv-rtb1.rfihub.com^$domain=mediaite.com
 ||esd-secure.taboola.com.edgekey.net^$domain=mediaite.com
 ||eus.rubiconproject.com^$domain=mediaite.com
+||events.bouncex.net^$domain=mediaite.com
 ||events-us-east-1.ipredictive.com^$domain=mediaite.com
 ||evm1.stackadapt.com^$domain=mediaite.com
 ||evm2.stackadapt.com^$domain=mediaite.com
@@ -153,6 +156,7 @@
 ||gce-sc.bidswitch.net^$domain=mediaite.com
 ! ||g.doubleclick.net^$domain=mediaite.com
 ||geo.moatads.com^$domain=mediaite.com
+||geo.privacymanager.io^$domain=mediaite.com
 ||googleads4.g.doubleclick.net^$domain=mediaite.com
 ||googleads.g.doubleclick.net^$domain=mediaite.com
 ||google-analytics.com^$domain=mediaite.com
@@ -161,8 +165,8 @@
 ||gum.criteo.com^$domain=mediaite.com
 ||hb-api.omnitagjs.com^$domain=mediaite.com
 ||hb.emxdgt.com^$domain=mediaite.com
-||hb.undertone.com^$domain=mediaite.com
 ||hbopenbid.pubmatic.com^$domain=mediaite.com
+||hb.undertone.com^$domain=mediaite.com
 ||htlb.casalemedia.com^$domain=mediaite.com
 ||ib.adnxs.com^$domain=mediaite.com
 ||id5-sync.com^$domain=mediaite.com
@@ -191,12 +195,12 @@
 ||loadm.exelator.com^$domain=mediaite.com
 ||loadus.exelator.com^$domain=mediaite.com
 ||lockerdome.com^$domain=mediaite.com
+||logger.adthrive.com^$domain=mediaite.com
 ||m.adnxs.com^$domain=mediaite.com
 ||map.media6degrees.com^$domain=mediaite.com
 ||match.adsrvr.org^$domain=mediaite.com
 ||match.rundsp.com^$domain=mediaite.com
 ||match.taboola.com^$domain=mediaite.com
-@@||mediaite.com^*/track/
 ||mid.rkdms.com^$domain=mediaite.com
 ||ml314.com^$domain=mediaite.com
 ||motifinvesting.go2cloud.org^$domain=mediaite.com
@@ -246,6 +250,7 @@
 ||rbp.mxptint.net^$domain=mediaite.com
 ||rc2waycm-atl.netmng.com^$domain=mediaite.com
 ||referrer.disqus.com^$domain=mediaite.com
+||reporting.powerad.ai^$domain=mediaite.com
 ||revcontent.com^$domain=mediaite.com
 ||rp.gwallet.com^$domain=mediaite.com
 ||rtb.gumgum.com^$domain=mediaite.com
@@ -257,10 +262,12 @@
 ||rules.quantcount.com^$domain=mediaite.com
 ||s0.2mdn.net^$domain=mediaite.com
 ||s2.adform.net^$domain=mediaite.com
+||s.adtelligent.com^$domain=mediaite.com
 ||safeframe.googlesyndication.com^$domain=mediaite.com
 ||s.amazon-adsystem.com^$domain=mediaite.com
 ||sb.scorecardresearch.com^$domain=mediaite.com
 ||scorecardresearch.com^$domain=mediaite.com
+||search.spotxchange.com^$domain=mediaite.com
 ||secure.adnxs.com^$domain=mediaite.com
 ||secure-assets.rubiconproject.com^$domain=mediaite.com
 ||secure-gl.imrworldwide.com^$domain=mediaite.com
@@ -280,10 +287,13 @@
 ||s-img.mgid.com^$domain=mediaite.com
 ||simple-cdn.s3.amazonaws.com^$domain=mediaite.com
 ||s.ntv.io^$domain=mediaite.com
+||soggysponge.com^$domain=mediaite.com
 ||srv.stackadapt.com^$domain=mediaite.com
 ||sshowads.pubmatic.com^$domain=mediaite.com
 ||s.skimresources.com^$domain=mediaite.com
 ||ssl.google-analytics.com^$domain=mediaite.com
+||ssp.behave.com^$domain=mediaite.com
+||ssp.disqus.com^$domain=mediaite.com
 ||ssum.casalemedia.com^$domain=mediaite.com
 ||stags.bluekai.com^$domain=mediaite.com
 ||stat8.flashtalking.com^$domain=mediaite.com
@@ -372,8 +382,9 @@
 ||zergnet.com^$domain=mediaite.com
 ||z.moatads.com^$domain=mediaite.com
 disqus.com##.advertisement
-disqus.com###container-inthread
 disqus.com#@#.comment__share
+disqus.com###container-inthread
+disqus.com##div.hidden-md:nth-of-type(5)
 disqus.com#@#.icon-facebook
 disqus.com#@#.icon-twitter
 disqus.com#@#.link_url
@@ -381,6 +392,7 @@ disqus.com#@#.share__button
 @@||assets-jpcust.jwpsrv.com^$domain=mediaite.com
 @@||cdn.jwplayer.com^$domain=mediaite.com
 @@||content.jwplatform.com^$domain=mediaite.com
+||entitlements.jwplayer.com^$domain=mediaite.com
 @@||jwpcdn.com^$domain=mediaite.com
 @@||jwplatform.com^$domain=mediaite.com
 @@||jwplayer.com^$domain=mediaite.com
@@ -392,16 +404,17 @@ disqus.com#@#.share__button
 @@||videos-cloudflare.jwpsrv.com^$domain=mediaite.com
 ! unbreak default uBlock Origin uAssets filter by whitelisting adthrive.config for media player
 mediaite.com#@#+js(aopr, adthrive.config)
+@@||mediaite.com^*/track/
 www.mediaite.com##.adthrive-ad
 www.mediaite.com##.adthrive-dynamic
 www.mediaite.com##.adthrive-footer
 www.mediaite.com##.adthrive-sticky
-www.mediaite.com#@#.c-article-nav-arrows
 ! www.mediaite.com##.c-adblocker-modal-content
 ! www.mediaite.com##.c-adblocker-modal-logo
 ! www.mediaite.com##.c-adblocker-modal-message
 ! www.mediaite.com##.c-adblocker-modal-submessage
 ! www.mediaite.com##.c-adblocker-modal-wrap
+www.mediaite.com#@#.c-article-nav-arrows
 www.mediaite.com##.c-header-account-wrap
 www.mediaite.com##.c-menu-account
 www.mediaite.com##.c-skip
@@ -419,8 +432,8 @@ www.mediaite.com##.o-skip
 www.mediaite.com##.o-subscribe-flair
 www.mediaite.com##.o-zergnet
 www.mediaite.com##.promo-unit
-! www.mediaite.com##.u-menu-focus-break
 www.mediaite.com###subscribe-flair
+! www.mediaite.com##.u-menu-focus-break
 @@||www.mediaite.com/adbait/adsbygoogle.js^
 ! Really? Are you fucking kidding me? Stop wasting Dan's money.
 @@||www.mediaite.com/adbaitplus/adsbygoogle.js^
