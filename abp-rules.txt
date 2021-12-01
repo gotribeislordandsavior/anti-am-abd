@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202112010714
+! Version: 202112012315
 ! Title: GT's AM ABP List
-! Last modified: 01 Dec 2021 07:14 UTC
+! Last modified: 01 Dec 2021 23:15 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -9,7 +9,7 @@
 ||aax.amazon-adsystem.com^$domain=mediaite.com
 ||aax-us-east.amazon-adsystem.com^$domain=mediaite.com
 ||aba.gumgum.com^$domain=mediaite.com
-||accounts.google.com^$domain=mediaite.com
+||accounts.google.com^$domain=disqus,mediaite.com
 ||acdn.adnxs.com^$domain=mediaite.com
 ||acuityplatform.com^$domain=mediaite.com
 ||adadvisor.net^$domain=mediaite.com
@@ -19,7 +19,7 @@
 ||adelphic-partners.tremorhub.com^$domain=mediaite.com
 ||ad.mail.ru^$domain=mediaite.com
 ||ad-monitor.kargo.com^$domain=mediaite.com
-! @@||ads.adthrive.com^$domain=mediaite.com
+||ads.adthrive.com^$domain=mediaite.com
 ! @@||ads.adthrive.com/core/v1/js/adthrive.min.js^$domain=mediaite.com
 ! @@||ads.adthrive.com/core/v1/vendor/prebid/prebid.min.js^$domain=mediaite.com
 ! @@||ads.adthrive.com/sites/5ac64c79fdf4d60603abe6a5/ads.min.js^$domain=mediaite.com
@@ -45,7 +45,7 @@
 ||ads.us.criteo.com^$domain=mediaite.com
 ||ads.yahoo.com^$domain=mediaite.com
 ||ads.yieldmo.com^$domain=mediaite.com
-! ||adthrive.com^$domain=mediaite.com
+||adthrive.com^$domain=mediaite.com
 ||ad.turn.com^$domain=mediaite.com
 ||ag.gbc.criteo.com^$domain=mediaite.com
 ||aka.spotxcdn.com^$domain=mediaite.com
@@ -189,6 +189,8 @@
 ||csm.us.criteo.net^$domain=mediaite.com
 ||csm.va1.vip.prod.criteo.net^$domain=mediaite.com
 ||csm.va.us.criteo.net^$domain=mediaite.com
+||csp.withgoogle.com/^$domain=mediaite.com,securepubads.g.doubleclick.net
+||csp.withgoogle.com/csp/report-to/ads-gpt-scs^$domain=mediaite.com,securepubads.g.doubleclick.net
 ||cti.w55c.net^$domain=mediaite.com
 ||da1.vip.prod.criteo.com^$domain=mediaite.com
 ||da1.vip.prod.criteo.net^$domain=mediaite.com
@@ -207,7 +209,7 @@
 ||dis.us.criteo.com^$domain=mediaite.com
 ||dmp.adblade.com^$domain=mediaite.com
 ||dmx.districtm.io^$domain=mediaite.com
-! ||doubleclick.net^$domain=mediaite.com
+||doubleclick.net^$domain=mediaite.com
 ||dpm.demdex.net^$domain=mediaite.com
 ||dsp.adfarm.adition.com^$domain=mediaite.com
 ||dsum-sec.casalemedia.com^$domain=mediaite.com
@@ -279,7 +281,7 @@
 ||gbc8.hk.as.criteo.com^$domain=mediaite.com
 ||gbc.criteo.com^$domain=mediaite.com
 ||gce-sc.bidswitch.net^$domain=mediaite.com
-! ||g.doubleclick.net^$domain=mediaite.com
+||g.doubleclick.net^$domain=mediaite.com
 ||gdpr.rw.yieldmo.com^$domain=mediaite.com
 ||gem.gbc.criteo.com^$domain=mediaite.com
 ||geo.moatads.com^$domain=mediaite.com
@@ -492,7 +494,7 @@
 ||secure-assets.rubiconproject.com^$domain=mediaite.com
 ||secure-gl.imrworldwide.com^$domain=mediaite.com
 ||secure.insightexpressai.com^$domain=mediaite.com
-! ||securepubads.g.doubleclick.net^$domain=mediaite.com
+||securepubads.g.doubleclick.net^$domain=mediaite.com
 ! @@||securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js^$domain=mediaite.com
 @@||securepubads.g.doubleclick.net/gpt/$script,domain=mediaite.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,domain=mediaite.com
@@ -721,6 +723,8 @@ disqus.com#@#.share__button
 ! Unbreak default uBlock Origin uAssets filter by whitelisting adthrive.config for media player
 mediaite.com#@#+js(aopr, adthrive.config)
 ! @@||mediaite.com^*/track/
+||mediaite.com^$other
+||mediaite.com^$websocket
 www.mediaite.com##.adthrive-ad
 www.mediaite.com##.adthrive-dynamic
 www.mediaite.com##.adthrive-footer
