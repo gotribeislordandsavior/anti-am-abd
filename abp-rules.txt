@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202112010450
+! Version: 202112010530
 ! Title: GT's AM ABP List
-! Last modified: 01 Dec 2021 04:50 UTC
+! Last modified: 01 Dec 2021 05:30 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -203,7 +203,7 @@
 ||dis.us.criteo.com^$domain=mediaite.com
 ||dmp.adblade.com^$domain=mediaite.com
 ||dmx.districtm.io^$domain=mediaite.com
-||doubleclick.net^$domain=mediaite.com
+! ||doubleclick.net^$domain=mediaite.com
 ||dpm.demdex.net^$domain=mediaite.com
 ||dsp.adfarm.adition.com^$domain=mediaite.com
 ||dsum-sec.casalemedia.com^$domain=mediaite.com
@@ -275,7 +275,7 @@
 ||gbc8.hk.as.criteo.com^$domain=mediaite.com
 ||gbc.criteo.com^$domain=mediaite.com
 ||gce-sc.bidswitch.net^$domain=mediaite.com
-||g.doubleclick.net^$domain=mediaite.com
+! ||g.doubleclick.net^$domain=mediaite.com
 ||gdpr.rw.yieldmo.com^$domain=mediaite.com
 ||gem.gbc.criteo.com^$domain=mediaite.com
 ||geo.moatads.com^$domain=mediaite.com
