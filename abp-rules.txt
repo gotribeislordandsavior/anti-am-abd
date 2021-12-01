@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202112012315
+! Version: 202112012328
 ! Title: GT's AM ABP List
-! Last modified: 01 Dec 2021 23:15 UTC
+! Last modified: 01 Dec 2021 23:28 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -9,7 +9,7 @@
 ||aax.amazon-adsystem.com^$domain=mediaite.com
 ||aax-us-east.amazon-adsystem.com^$domain=mediaite.com
 ||aba.gumgum.com^$domain=mediaite.com
-||accounts.google.com^$domain=disqus,mediaite.com
+||accounts.google.com^$domain=disqus.com,mediaite.com
 ||acdn.adnxs.com^$domain=mediaite.com
 ||acuityplatform.com^$domain=mediaite.com
 ||adadvisor.net^$domain=mediaite.com
