@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202112010530
+! Version: 202112010605
 ! Title: GT's AM ABP List
-! Last modified: 01 Dec 2021 05:30 UTC
+! Last modified: 01 Dec 2021 06:05 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -19,7 +19,7 @@
 ||adelphic-partners.tremorhub.com^$domain=mediaite.com
 ||ad.mail.ru^$domain=mediaite.com
 ||ad-monitor.kargo.com^$domain=mediaite.com
-! ||ads.adthrive.com^$domain=mediaite.com
+@@||ads.adthrive.com^$domain=mediaite.com
 @@||ads.adthrive.com/core/v1/js/adthrive.min.js^$domain=mediaite.com
 @@||ads.adthrive.com/core/v1/vendor/prebid/prebid.min.js^$domain=mediaite.com
 @@||ads.adthrive.com/sites/5ac64c79fdf4d60603abe6a5/ads.min.js^$domain=mediaite.com
