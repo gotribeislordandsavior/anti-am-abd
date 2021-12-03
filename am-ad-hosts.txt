@@ -123,7 +123,6 @@
 0.0.0.0 cdn.districtm.ca
 0.0.0.0 cdn.districtm.io
 0.0.0.0 cdn.flashtalking.com
-0.0.0.0 cdn.jwplayer.com
 0.0.0.0 cdn.mgid.com
 0.0.0.0 cdn.onesignal.com
 0.0.0.0 cdn.revcontent.com
@@ -151,7 +150,6 @@
 0.0.0.0 connect.countent.com
 0.0.0.0 connect.facebook.net
 0.0.0.0 consent.cookiebot.com
-0.0.0.0 content.jwplatform.com
 0.0.0.0 contextual.media.net
 0.0.0.0 cookiebot.com
 0.0.0.0 cookie.brealtime.com
