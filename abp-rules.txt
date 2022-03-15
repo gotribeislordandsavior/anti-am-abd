@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202112012328
+! Version: 202203150447
 ! Title: GT's AM ABP List
-! Last modified: 01 Dec 2021 23:28 UTC
+! Last modified: 15 Mar 2022 04:47 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -725,6 +725,8 @@ mediaite.com#@#+js(aopr, adthrive.config)
 ! @@||mediaite.com^*/track/
 ||mediaite.com^$other
 ||mediaite.com^$websocket
+www.mediaite.com##a[href="https://my.getadmiral.com/login/"]
+www.mediaite.com##a[href="https://www.mediaite.com/subscribe"]
 www.mediaite.com##.adthrive-ad
 www.mediaite.com##.adthrive-dynamic
 www.mediaite.com##.adthrive-footer
@@ -735,13 +737,18 @@ www.mediaite.com##.adthrive-sticky
 ! www.mediaite.com##.c-adblocker-modal-submessage
 ! www.mediaite.com##.c-adblocker-modal-wrap
 www.mediaite.com#@#.c-article-nav-arrows
+www.mediaite.com##.c-header-account
 www.mediaite.com##.c-header-account-wrap
+www.mediaite.com##.c-logo-plus
+www.mediaite.com##.c-logo-plus__svg
 www.mediaite.com##.c-menu-account
 www.mediaite.com##.c-skip
 ! www.mediaite.com##.has-adblock-detected
 www.mediaite.com###nav-subscribe
 www.mediaite.com##.o-account
 www.mediaite.com##.o-account__link
+www.mediaite.com##.o-account__manage-link
+www.mediaite.com##.o-account__manage-link.o-account__link.o-button.c-header-account__link.u-contrast-hover
 www.mediaite.com##.o-account__subscribe-link
 www.mediaite.com##.o-button
 www.mediaite.com##.o-jw-sub-promo
@@ -753,6 +760,7 @@ www.mediaite.com##.o-subscribe-flair
 www.mediaite.com##.o-zergnet
 www.mediaite.com##.promo-unit
 www.mediaite.com###subscribe-flair
+! www.mediaite.com##.u-hide@mobile
 ! www.mediaite.com##.u-menu-focus-break
 @@||www.mediaite.com/adbait/adsbygoogle.js^
 ! Really? Are you fucking kidding me? Stop wasting Dan's money.
