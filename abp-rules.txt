@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202203150447
+! Version: 202203210152
 ! Title: GT's AM ABP List
-! Last modified: 15 Mar 2022 04:47 UTC
+! Last modified: 21 Mar 2022 01:52 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -167,6 +167,7 @@
 ||connect.facebook.net/en_US/fbevents.js^$script,domain=mediaite.com
 ||consent.cookiebot.com^$domain=mediaite.com
 ||content.jwplatform.com^$domain=mediaite.com
+||context.iris.tv^$domain=mediaite.com
 ||contextual.media.net^$domain=mediaite.com
 ||cookiebot.com^$domain=mediaite.com
 ||cookie.brealtime.com^$domain=mediaite.com
@@ -725,12 +726,19 @@ mediaite.com#@#+js(aopr, adthrive.config)
 ! @@||mediaite.com^*/track/
 ||mediaite.com^$other
 ||mediaite.com^$websocket
+www.mediaite.com###AdThrive_Footer_1_desktop
 www.mediaite.com##a[href="https://my.getadmiral.com/login/"]
 www.mediaite.com##a[href="https://www.mediaite.com/subscribe"]
+www.mediaite.com##.ad-placement
 www.mediaite.com##.adthrive-ad
+www.mediaite.com##.adthrive-ad-cls
 www.mediaite.com##.adthrive-dynamic
 www.mediaite.com##.adthrive-footer
+www.mediaite.com##.adthrive-footer-1
 www.mediaite.com##.adthrive-sticky
+www.mediaite.com#$#.adthrive-video-player{min-height: 413.438px !important}
+www.mediaite.com#$#.adthrive-video-player{padding-bottom: 0px !important}
+www.mediaite.com##.afs_ads
 ! www.mediaite.com##.c-adblocker-modal-content
 ! www.mediaite.com##.c-adblocker-modal-logo
 ! www.mediaite.com##.c-adblocker-modal-message
@@ -739,6 +747,7 @@ www.mediaite.com##.adthrive-sticky
 www.mediaite.com#@#.c-article-nav-arrows
 www.mediaite.com##.c-header-account
 www.mediaite.com##.c-header-account-wrap
+www.mediaite.com##.c-header-account__link
 www.mediaite.com##.c-logo-plus
 www.mediaite.com##.c-logo-plus__svg
 www.mediaite.com##.c-menu-account
@@ -747,11 +756,13 @@ www.mediaite.com##.c-skip
 www.mediaite.com###nav-subscribe
 www.mediaite.com##.o-account
 www.mediaite.com##.o-account__link
+www.mediaite.com##.o-account__login-link
 www.mediaite.com##.o-account__manage-link
-www.mediaite.com##.o-account__manage-link.o-account__link.o-button.c-header-account__link.u-contrast-hover
 www.mediaite.com##.o-account__subscribe-link
 www.mediaite.com##.o-button
 www.mediaite.com##.o-jw-sub-promo
+www.mediaite.com##.o-jw-sub-promo__img
+www.mediaite.com##.o-jw-sub-promo__text
 www.mediaite.com##.o-nav-subscribe
 www.mediaite.com##.o-post__lock
 www.mediaite.com##.o-promo-unit
@@ -761,6 +772,7 @@ www.mediaite.com##.o-zergnet
 www.mediaite.com##.promo-unit
 www.mediaite.com###subscribe-flair
 ! www.mediaite.com##.u-hide@mobile
+! www.mediaite.com##.u-contrast-hover
 ! www.mediaite.com##.u-menu-focus-break
 @@||www.mediaite.com/adbait/adsbygoogle.js^
 ! Really? Are you fucking kidding me? Stop wasting Dan's money.
