@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202203210152
+! Version: 202206042215
 ! Title: GT's AM ABP List
-! Last modified: 21 Mar 2022 01:52 UTC
+! Last modified: 04 Jun 2022 22:15 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -69,6 +69,7 @@
 ||as.criteo.net^$domain=mediaite.com
 ||as.ebz.io^$domain=mediaite.com
 ||as-sec.casalemedia.com^$domain=mediaite.com
+||assets.a-mo.net^$domain=mediaite.com
 ||a.teads.tv^$domain=mediaite.com
 ||a.tribalfusion.com^$domain=mediaite.com
 ||ats.rlcdn.com^$domain=mediaite.com
@@ -95,10 +96,12 @@
 ||bounceexchange.com^$domain=mediaite.com
 ||b.scorecardresearch.com^$domain=mediaite.com
 ||bs.serving-sys.com^$domain=mediaite.com
+||btlr.sharethrough.com^$domain=mediaite.com
 ||bttrack.com^$domain=mediaite.com
 ||c1.adform.net^$domain=mediaite.com
 ||c1.rfihub.net^$domain=mediaite.com
 ||c2.rfihub.net^$domain=mediaite.com
+||c2shb.pubgw.yahoo.com^$domain=mediaite.com
 ||c2shb.ssp.yahoo.com^$domain=mediaite.com
 ||cafemedia-d.openx.net^$domain=mediaite.com
 ||c.amazon-adsystem.com^$domain=mediaite.com
@@ -146,6 +149,7 @@
 ||cdn.teads.tv^$domain=mediaite.com
 ||cdn.wibbitz.com^$domain=mediaite.com
 ||ce.lijit.com^$domain=mediaite.com
+||check.analytics.rlcdn.com^$domain=mediaite.com
 ||ckm-m.xp1.ru4.com^$domain=mediaite.com
 ||clicktrack.pubmatic.com^$domain=mediaite.com
 ||cm.adgrx.com^$domain=mediaite.com
@@ -159,6 +163,7 @@
 ||cm.smadex.com^$domain=mediaite.com
 ||cms.quantserve.com^$domain=mediaite.com
 ||cms-xch-chicago.33across.com^$domain=mediaite.com
+||colossusssp.com^$domain=mediaite.com
 ||concert.io^$domain=mediaite.com
 ||confiant-integrations.global.ssl.fastly.net^$domain=mediaite.com
 ||connect.countent.com^$domain=mediaite.com
@@ -204,6 +209,7 @@
 ||den01-search.spotxchange.com^$domain=mediaite.com
 ||den01.sync.search.spotxchange.com^$domain=mediaite.com
 ||d.eu.criteo.com^$domain=mediaite.com
+||direct.adsrvr.org^$domain=mediaite.com
 ||dis.as.criteo.com^$domain=mediaite.com
 ||dis.criteo.com^$domain=mediaite.com
 ||districtm-match.dotomi.com^$domain=mediaite.com
@@ -252,11 +258,14 @@
 ||ewr-420.ewr-rtb1.rfihub.com^$domain=mediaite.com
 ||exapi-eu.rubiconproject.com^$domain=mediaite.com
 ||exapi-us-west.rubiconproject.com^$domain=mediaite.com
+||exchange.postrelease.com^$domain=mediaite.com
 ||fastlane-adv.rubiconproject.com^$domain=mediaite.com
 ||fastlane.rubiconproject.com^$domain=mediaite.com
 ||feed.engage.im^$domain=mediaite.com
 ||flapi1.rubiconproject.com^$domain=mediaite.com
 ||flapi2.rubiconproject.com^$domain=mediaite.com
+||fo-static-usa01.omnitagjs.com^$domain=mediaite.com
+||fo-static-usa02.omnitagjs.com^$domain=mediaite.com
 ||fr.eu.criteo.com^$domain=mediaite.com
 ||fr.eu.criteo.net^$domain=mediaite.com
 ||fundingchoicesmessages.google.com^$domain=mediaite.com
@@ -315,6 +324,7 @@
 ||iad02.sync.search.spotxchange.com^$domain=mediaite.com
 ||ib.adnxs.com^$domain=mediaite.com
 ||id5-sync.com^$domain=mediaite.com
+||id.rlcdn.com^$domain=mediaite.com
 ||idsync.reson8.com^$domain=mediaite.com
 ||idsync.rlcdn.com^$domain=mediaite.com
 ||i.liadm.com^$domain=mediaite.com
@@ -430,6 +440,7 @@
 ||powerad.ai^$domain=mediaite.com
 ||prebid.adnxs.com^$domain=mediaite.com
 ||prebid.adnxs-simple.com^$domain=mediaite.com
+||prebid.a-mo.net^$domain=mediaite.com
 ||prebid-a.rubiconproject.com^$domain=mediaite.com
 ||prebid.deepintent.com^$domain=mediaite.com
 ||prebid.districtm.ca^$domain=mediaite.com
@@ -685,26 +696,19 @@
 ||w.yieldmo.com^$domain=mediaite.com
 ||x.bidswitch.net^$domain=mediaite.com
 ||x.dlx.addthis.com^$domain=mediaite.com
+||x.videobyte.com^$domain=mediaite.com
 ||zergnet.com^$domain=mediaite.com
 ||z.moatads.com^$domain=mediaite.com
 ||c.disquscdn.com/js/dist/prebid.4.39.0.js$script,domain=mediaite.com
 ||c.disquscdn.com/js/dist/prebid.*.js$script,domain=mediaite.com
 ||disqusads.com^$domain=mediaite.com
-disqus.com##.advertisement
-disqus.com#@#.comment__share
-disqus.com###container-inthread
-disqus.com##div.hidden-md:nth-of-type(5)
-disqus.com##.hidden-md[data-role="tile-ads-module"]
-disqus.com#@#.icon-facebook
-disqus.com#@#.icon-twitter
-disqus.com#@#.link_url
-disqus.com#@#.share__button
 ||disqus-com.videoplayerhub.com^$domain=mediaite.com
 ||disqus-d.openx.net^$domain=mediaite.com
 ||extract.services.disqus.com^$domain=mediaite.com
 @@||mediaite.disqus.com^$domain=mediaite.com
 @@||realtime.services.disqus.com^$domain=mediaite.com
 ||referrer.disqus.com^$domain=mediaite.com
+||s.disquscdn.com^$domain=mediaite.com
 ||ssp.disqus.com^$domain=mediaite.com
 ||tempest.services.disqus.com^$domain=mediaite.com
 @@||assets-jpcust.jwpsrv.com^$domain=mediaite.com
@@ -718,27 +722,45 @@ disqus.com#@#.share__button
 ||jwpsrv.com^$domain=mediaite.com
 ||jwpltx.com^$domain=mediaite.com
 ||entitlements.jwplayer.com^$domain=mediaite.com
+||ping-meta-prd.jwpltx.com^$domain=mediaite.com
 ||prd.jwpltx.com^$domain=mediaite.com
 @@||jwplayer-dualstack.map.fastly.net^$domain=mediaite.com
 @@||videos-cloudflare.jwpsrv.com^$domain=mediaite.com
+disqus.com##.adBlock
+disqus.com##.adContent
+disqus.com##.adSense
+disqus.com##.ad-text
+disqus.com##.advertisement
+disqus.com#@#.comment__share
+disqus.com###container-inthread
+disqus.com##div.card--advertisement
+! disqus.com##div.card--advertisement > div
+disqus.com##div.card--advertisement:nth-child(2)
+! disqus.com##div.card--advertisement:nth-child(2) > div:nth-child(1)
+disqus.com##div.hidden-md:nth-of-type(5)
+disqus.com##.hidden-md[data-role="tile-ads-module"]
+disqus.com#@#.icon-facebook
+disqus.com#@#.icon-twitter
+disqus.com#@#.link_url
+disqus.com#@#.share__button
 ! Unbreak default uBlock Origin uAssets filter by whitelisting adthrive.config for media player
 mediaite.com#@#+js(aopr, adthrive.config)
 ! @@||mediaite.com^*/track/
 ||mediaite.com^$other
 ||mediaite.com^$websocket
-www.mediaite.com###AdThrive_Footer_1_desktop
-www.mediaite.com##a[href="https://my.getadmiral.com/login/"]
-www.mediaite.com##a[href="https://www.mediaite.com/subscribe"]
+www.mediaite.com#$#.adthrive-video-player{min-height: 413.438px !important}
+www.mediaite.com#$#.adthrive-video-player{padding-bottom: 0px !important}
 www.mediaite.com##.ad-placement
 www.mediaite.com##.adthrive-ad
 www.mediaite.com##.adthrive-ad-cls
 www.mediaite.com##.adthrive-dynamic
 www.mediaite.com##.adthrive-footer
 www.mediaite.com##.adthrive-footer-1
+www.mediaite.com###AdThrive_Footer_1_desktop
 www.mediaite.com##.adthrive-sticky
-www.mediaite.com#$#.adthrive-video-player{min-height: 413.438px !important}
-www.mediaite.com#$#.adthrive-video-player{padding-bottom: 0px !important}
 www.mediaite.com##.afs_ads
+www.mediaite.com##a[href="https://my.getadmiral.com/login/"]
+www.mediaite.com##a[href="https://www.mediaite.com/subscribe"]
 ! www.mediaite.com##.c-adblocker-modal-content
 ! www.mediaite.com##.c-adblocker-modal-logo
 ! www.mediaite.com##.c-adblocker-modal-message
@@ -746,13 +768,19 @@ www.mediaite.com##.afs_ads
 ! www.mediaite.com##.c-adblocker-modal-wrap
 www.mediaite.com#@#.c-article-nav-arrows
 www.mediaite.com##.c-header-account
-www.mediaite.com##.c-header-account-wrap
 www.mediaite.com##.c-header-account__link
+www.mediaite.com##.c-header-account-wrap
 www.mediaite.com##.c-logo-plus
 www.mediaite.com##.c-logo-plus__svg
 www.mediaite.com##.c-menu-account
 www.mediaite.com##.c-skip
+www.mediaite.com##div[id^="div-gpt-"]
+www.mediaite.com##div[id^="google_ads_iframe_"]
 ! www.mediaite.com##.has-adblock-detected
+www.mediaite.com##[id^="div-gpt-ad"]
+www.mediaite.com##[id^="google_ads_iframe"]
+www.mediaite.com##[id*="ScriptRoot"]
+www.mediaite.com##.jw-submenu-sharing
 www.mediaite.com###nav-subscribe
 www.mediaite.com##.o-account
 www.mediaite.com##.o-account__link
@@ -771,8 +799,8 @@ www.mediaite.com##.o-subscribe-flair
 www.mediaite.com##.o-zergnet
 www.mediaite.com##.promo-unit
 www.mediaite.com###subscribe-flair
-! www.mediaite.com##.u-hide@mobile
 ! www.mediaite.com##.u-contrast-hover
+! www.mediaite.com##.u-hide@mobile
 ! www.mediaite.com##.u-menu-focus-break
 @@||www.mediaite.com/adbait/adsbygoogle.js^
 ! Really? Are you fucking kidding me? Stop wasting Dan's money.
