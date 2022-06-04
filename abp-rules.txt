@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202206042215
+! Version: 202206042220
 ! Title: GT's AM ABP List
-! Last modified: 04 Jun 2022 22:15 UTC
+! Last modified: 04 Jun 2022 22:20 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -9,7 +9,7 @@
 ||aax.amazon-adsystem.com^$domain=mediaite.com
 ||aax-us-east.amazon-adsystem.com^$domain=mediaite.com
 ||aba.gumgum.com^$domain=mediaite.com
-||accounts.google.com^$domain=disqus.com,mediaite.com
+||accounts.google.com^$domain=disqus.com|mediaite.com
 ||acdn.adnxs.com^$domain=mediaite.com
 ||acuityplatform.com^$domain=mediaite.com
 ||adadvisor.net^$domain=mediaite.com
@@ -195,8 +195,8 @@
 ||csm.us.criteo.net^$domain=mediaite.com
 ||csm.va1.vip.prod.criteo.net^$domain=mediaite.com
 ||csm.va.us.criteo.net^$domain=mediaite.com
-||csp.withgoogle.com/^$domain=mediaite.com,securepubads.g.doubleclick.net
-||csp.withgoogle.com/csp/report-to/ads-gpt-scs^$domain=mediaite.com,securepubads.g.doubleclick.net
+||csp.withgoogle.com/^$domain=mediaite.com|securepubads.g.doubleclick.net
+||csp.withgoogle.com/csp/report-to/ads-gpt-scs^$domain=mediaite.com|securepubads.g.doubleclick.net
 ||cti.w55c.net^$domain=mediaite.com
 ||da1.vip.prod.criteo.com^$domain=mediaite.com
 ||da1.vip.prod.criteo.net^$domain=mediaite.com
