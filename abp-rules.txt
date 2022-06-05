@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202206050711
+! Version: 202206050905
 ! Title: GT's AM ABP List
-! Last modified: 05 Jun 2022 07:11 UTC
+! Last modified: 05 Jun 2022 09:05 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -518,10 +518,11 @@
 ||secure.insightexpressai.com^$domain=mediaite.com
 ||securepubads.g.doubleclick.net^$domain=mediaite.com
 ! @@||securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js^$domain=mediaite.com
-!!! @@||securepubads.g.doubleclick.net/gpt/$script,domain=mediaite.com
-!!! @@||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,domain=mediaite.com
-!!! ||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect=googletagservices_gpt.js,domain=mediaite.com
-!!! ||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect-rule=googletagservices_gpt.js,domain=mediaite.com
+@@||securepubads.g.doubleclick.net/gpt/$script,domain=mediaite.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,domain=mediaite.com
+||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect=googletagservices_gpt.js,domain=mediaite.com
+||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect-rule=googletagservices_gpt.js,domain=mediaite.com
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js:5,domain=mediaite.com
 ||secure.quantserve.com^$domain=mediaite.com
 ||secure-us.imrworldwide.com^$domain=mediaite.com
 ||segments.company-target.com^$domain=mediaite.com
@@ -813,6 +814,7 @@ www.mediaite.com##.o-skip
 www.mediaite.com##.o-subscribe-flair
 www.mediaite.com##.o-zergnet
 www.mediaite.com##.promo-unit
+www.mediaite.com###sidebar-hook-1
 www.mediaite.com###subscribe-flair
 ! www.mediaite.com##.u-contrast-hover
 ! www.mediaite.com##.u-hide@mobile
