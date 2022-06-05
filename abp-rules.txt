@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202206042220
+! Version: 202206050703
 ! Title: GT's AM ABP List
-! Last modified: 04 Jun 2022 22:20 UTC
+! Last modified: 05 Jun 2022 07:03 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -23,11 +23,21 @@
 ! @@||ads.adthrive.com/core/v1/js/adthrive.min.js^$domain=mediaite.com
 ! @@||ads.adthrive.com/core/v1/vendor/prebid/prebid.min.js^$domain=mediaite.com
 ! @@||ads.adthrive.com/sites/5ac64c79fdf4d60603abe6a5/ads.min.js^$domain=mediaite.com
-@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js^$script,domain=mediaite.com
-@@||ads.adthrive.com/builds/core/*/vendor/prebid/prebid.min.js^$script,domain=mediaite.com
+!! @@||ads.adthrive.com/builds/core/*/js/adthrive.min.js^$script,domain=mediaite.com
+!! @@||ads.adthrive.com/builds/core/*/vendor/prebid/prebid.min.js^$script,domain=mediaite.com
+!! @@||ads.adthrive.com/sites/*/ads.min.js^$script,domain=mediaite.com
+!! @@||ads.adthrive.com/core/*/js/adthrive.min.js^$script,domain=mediaite.com
+!! @@||ads.adthrive.com/core/gdpr/vendor/prebid/prebid.min.js^$script,domain=mediaite.com
+!!! 1. ads.min.js
 @@||ads.adthrive.com/sites/*/ads.min.js^$script,domain=mediaite.com
+!!! 2. marmalade
+!!! @@||ads.adthrive.com/api/v1/marmalade^$script,domain=mediaite.com
+!!! 3. adthrive.min.js
 @@||ads.adthrive.com/core/*/js/adthrive.min.js^$script,domain=mediaite.com
-@@||ads.adthrive.com/core/gdpr/vendor/prebid/prebid.min.js^$script,domain=mediaite.com
+@@||ads.adthrive.com/*/core/*/js/adthrive.min.js^$script,domain=mediaite.com
+!!! @@||ads.adthrive.com/core/*/vendor/prebid/prebid.min.js$script,domain=mediaite.com
+!!! @@||ads.adthrive.com/*/core/*/vendor/prebid/prebid.min.js$script,domain=mediaite.com
+!!! @@||adthrive.com/$script,domain=mediaite.com
 ||ads.as.criteo.com^$domain=mediaite.com
 ||ads.avocet.io^$domain=mediaite.com
 ||ads.creative-serving.com^$domain=mediaite.com
@@ -508,10 +518,10 @@
 ||secure.insightexpressai.com^$domain=mediaite.com
 ||securepubads.g.doubleclick.net^$domain=mediaite.com
 ! @@||securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js^$domain=mediaite.com
-@@||securepubads.g.doubleclick.net/gpt/$script,domain=mediaite.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,domain=mediaite.com
-||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect=googletagservices_gpt.js,domain=mediaite.com
-||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect-rule=googletagservices_gpt.js,domain=mediaite.com
+!!! @@||securepubads.g.doubleclick.net/gpt/$script,domain=mediaite.com
+!!! @@||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,domain=mediaite.com
+!!! ||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect=googletagservices_gpt.js,domain=mediaite.com
+!!! ||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect-rule=googletagservices_gpt.js,domain=mediaite.com
 ||secure.quantserve.com^$domain=mediaite.com
 ||secure-us.imrworldwide.com^$domain=mediaite.com
 ||segments.company-target.com^$domain=mediaite.com
@@ -678,8 +688,8 @@
 ||www.google-analytics.com^$domain=mediaite.com
 ||www-google-analytics.l.google.com^$domain=mediaite.com
 ||www.google.com/ads/$domain=mediaite.com
-! Unbreak Ultimate Privacy Filter & EasyPrivacy
-||www.googletagmanager.com^$domain=mediaite.com
+!!! Unbreak Ultimate Privacy Filter & EasyPrivacy
+!!! ||www.googletagmanager.com^$domain=mediaite.com
 ||www.googletagservices.com^$domain=mediaite.com
 ||www.images.taboola.com^$domain=mediaite.com
 ||www.ora.tv^$domain=mediaite.com
@@ -699,18 +709,23 @@
 ||x.videobyte.com^$domain=mediaite.com
 ||zergnet.com^$domain=mediaite.com
 ||z.moatads.com^$domain=mediaite.com
-||c.disquscdn.com/js/dist/prebid.4.39.0.js$script,domain=mediaite.com
-||c.disquscdn.com/js/dist/prebid.*.js$script,domain=mediaite.com
-||disqusads.com^$domain=mediaite.com
+||c.disquscdn.com/js/dist/prebid.4.39.0.js$script,domain=mediaite.com|disqus.com
+||c.disquscdn.com/js/dist/prebid.*.js$script,domain=mediaite.com|disqus.com
+||c.disquscdn.com/*/tile_ads/$domain=mediaite.com|disqus.com
+||cdn.amplitude.com^$domain=mediaite.com|disqus.com
+||cmp.osano.com^$domain=mediaite.com|disqus.com
+||disqusads.com^$domain=mediaite.com|disqus.com
 ||disqus-com.videoplayerhub.com^$domain=mediaite.com
 ||disqus-d.openx.net^$domain=mediaite.com
-||extract.services.disqus.com^$domain=mediaite.com
-@@||mediaite.disqus.com^$domain=mediaite.com
-@@||realtime.services.disqus.com^$domain=mediaite.com
-||referrer.disqus.com^$domain=mediaite.com
-||s.disquscdn.com^$domain=mediaite.com
-||ssp.disqus.com^$domain=mediaite.com
-||tempest.services.disqus.com^$domain=mediaite.com
+!!! ||extract.services.disqus.com^$domain=mediaite.com
+@@||extract.services.disqus.com^$domain=mediaite.com|disqus.com,script
+@@||mediaite.disqus.com^$domain=mediaite.com|disqus.com
+@@||realtime.services.disqus.com^$domain=mediaite.com|disqus.com,websocket
+||referrer.disqus.com^$domain=mediaite.com|disqus.com
+||s.disquscdn.com^$domain=mediaite.com|disqus.com
+||ssp.disqus.com^$domain=mediaite.com|disqus.com
+||tempest.services.disqus.com^$domain=mediaite.com|disqus.com
+||www.googletagmanager^$domain=mediaite.com|disqus.com
 @@||assets-jpcust.jwpsrv.com^$domain=mediaite.com
 @@||cdn.jwplayer.com^$domain=mediaite.com
 @@||content.jwplatform.com^$domain=mediaite.com
