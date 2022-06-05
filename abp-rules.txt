@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202206050905
+! Version: 202206051306
 ! Title: GT's AM ABP List
-! Last modified: 05 Jun 2022 09:05 UTC
+! Last modified: 05 Jun 2022 13:06 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -710,6 +710,15 @@
 ||x.videobyte.com^$domain=mediaite.com
 ||zergnet.com^$domain=mediaite.com
 ||z.moatads.com^$domain=mediaite.com
+!!! Enable "non-unblockable" Facebook share button
+@@||connect.facebook.net/en_US/all.js^$script,domain=mediaite.com
+||facebook.com/plugins/share_button.php^$script,~frame,domain=mediaite.com
+!!! To block the Twitter social media widget beacon, uncomment the following line
+!!! ||platform.twitter.com/widgets/tweet_button$subdocument,domain=mediaite.com
+!!! To block the Facebook social media widget beacon, uncomment the following line
+!!! ||www.facebook.com/plugins/share_button.php?$subdocument,domain=mediaite.com
+!!! To block the Reddit social media widget beacon, uncomment the following line
+!!! www.mediaite.com##.o-share-item.share-reddit > [href] > [src]
 ||c.disquscdn.com/js/dist/prebid.4.39.0.js$script,domain=mediaite.com|disqus.com
 ||c.disquscdn.com/js/dist/prebid.*.js$script,domain=mediaite.com|disqus.com
 ||c.disquscdn.com/*/tile_ads/$domain=mediaite.com|disqus.com
@@ -761,6 +770,8 @@ disqus.com#@#.link_url
 disqus.com#@#.share__button
 ! Unbreak default uBlock Origin uAssets filter by whitelisting adthrive.config for media player
 mediaite.com#@#+js(aopr, adthrive.config)
+! Unbreak Fanboy's Annoyance filter
+www.mediaite.com#@#.promo-sidebar
 ! @@||mediaite.com^*/track/
 ||mediaite.com^$other
 ||mediaite.com^$websocket
@@ -815,6 +826,8 @@ www.mediaite.com##.o-subscribe-flair
 www.mediaite.com##.o-zergnet
 www.mediaite.com##.promo-unit
 www.mediaite.com###sidebar-hook-1
+www.mediaite.com###sidebar-hook-2
+www.mediaite.com###sidebar-3 > .u-lazy-parent
 www.mediaite.com###subscribe-flair
 ! www.mediaite.com##.u-contrast-hover
 ! www.mediaite.com##.u-hide@mobile
