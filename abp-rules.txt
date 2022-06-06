@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202206051306
+! Version: 202206062230
 ! Title: GT's AM ABP List
-! Last modified: 05 Jun 2022 13:06 UTC
+! Last modified: 06 Jun 2022 22:30 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -729,6 +729,9 @@
 ||disqus-d.openx.net^$domain=mediaite.com
 !!! ||extract.services.disqus.com^$domain=mediaite.com
 @@||extract.services.disqus.com^$domain=mediaite.com|disqus.com,script
+||glitter.services.disqus.com^$domain=mediaite.com|disqus.com
+||juggler.services.disqus.com^$domain=mediaite.com|disqus.com
+||links.services.disqus.com^$domain=mediaite.com|disqus.com
 @@||mediaite.disqus.com^$domain=mediaite.com|disqus.com
 @@||realtime.services.disqus.com^$domain=mediaite.com|disqus.com,websocket
 ||referrer.disqus.com^$domain=mediaite.com|disqus.com
@@ -825,6 +828,7 @@ www.mediaite.com##.o-skip
 www.mediaite.com##.o-subscribe-flair
 www.mediaite.com##.o-zergnet
 www.mediaite.com##.promo-unit
+www.mediaite.com###sidebar-1
 www.mediaite.com###sidebar-hook-1
 www.mediaite.com###sidebar-hook-2
 www.mediaite.com###sidebar-3 > .u-lazy-parent
