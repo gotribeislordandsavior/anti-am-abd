@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202206062230
+! Version: 202208142152
 ! Title: GT's AM ABP List
-! Last modified: 06 Jun 2022 22:30 UTC
+! Last modified: 14 Aug 2022 21:52 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -734,7 +734,7 @@
 ||links.services.disqus.com^$domain=mediaite.com|disqus.com
 @@||mediaite.disqus.com^$domain=mediaite.com|disqus.com
 @@||realtime.services.disqus.com^$domain=mediaite.com|disqus.com,websocket
-||referrer.disqus.com^$domain=mediaite.com|disqus.com
+! ||referrer.disqus.com^$domain=mediaite.com|disqus.com
 ||s.disquscdn.com^$domain=mediaite.com|disqus.com
 ||ssp.disqus.com^$domain=mediaite.com|disqus.com
 ||tempest.services.disqus.com^$domain=mediaite.com|disqus.com
@@ -765,7 +765,8 @@ disqus.com##div.card--advertisement
 ! disqus.com##div.card--advertisement > div
 disqus.com##div.card--advertisement:nth-child(2)
 ! disqus.com##div.card--advertisement:nth-child(2) > div:nth-child(1)
-disqus.com##div.hidden-md:nth-of-type(5)
+! disqus.com##div.hidden-md:nth-of-type(5)
+disqus.com##div.hidden-md:nth-of-type(6)
 disqus.com##.hidden-md[data-role="tile-ads-module"]
 disqus.com#@#.icon-facebook
 disqus.com#@#.icon-twitter
