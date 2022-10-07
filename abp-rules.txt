@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202208142152
+! Version: 202210070011
 ! Title: GT's AM ABP List
-! Last modified: 14 Aug 2022 21:52 UTC
+! Last modified: 07 Oct 2022 00:11 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -734,7 +734,7 @@
 ||links.services.disqus.com^$domain=mediaite.com|disqus.com
 @@||mediaite.disqus.com^$domain=mediaite.com|disqus.com
 @@||realtime.services.disqus.com^$domain=mediaite.com|disqus.com,websocket
-! ||referrer.disqus.com^$domain=mediaite.com|disqus.com
+||referrer.disqus.com^$domain=mediaite.com|disqus.com
 ||s.disquscdn.com^$domain=mediaite.com|disqus.com
 ||ssp.disqus.com^$domain=mediaite.com|disqus.com
 ||tempest.services.disqus.com^$domain=mediaite.com|disqus.com
@@ -818,7 +818,8 @@ www.mediaite.com##.o-account__link
 www.mediaite.com##.o-account__login-link
 www.mediaite.com##.o-account__manage-link
 www.mediaite.com##.o-account__subscribe-link
-www.mediaite.com##.o-button
+! www.mediaite.com##.o-button
+www.mediaite.com#@#.o-button
 www.mediaite.com##.o-jw-sub-promo
 www.mediaite.com##.o-jw-sub-promo__img
 www.mediaite.com##.o-jw-sub-promo__text
