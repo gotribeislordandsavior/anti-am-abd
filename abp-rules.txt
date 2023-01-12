@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202301061126
+! Version: 202301121437
 ! Title: GT's AM ABP List
-! Last modified: 06 Jan 2023 11:26 UTC
+! Last modified: 12 Jan 2023 14:37 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -784,14 +784,23 @@ www.mediaite.com#$#.adthrive-video-player{padding-bottom: 0px !important}
 www.mediaite.com##.ad-placement
 www.mediaite.com##.adthrive-ad
 www.mediaite.com##.adthrive-ad-cls
+www.mediaite.com###adthrive-ccpa-modal.adthrive-ccpa-modal
+www.mediaite.com##.adthrive-close
+www.mediaite.com###adthrive-comscore
+www.mediaite.com##.adthrive-comscore
+www.mediaite.com###adthrive-comscore.adthrive-footer-message
 www.mediaite.com##.adthrive-dynamic
 www.mediaite.com##.adthrive-footer
 www.mediaite.com##.adthrive-footer-1
 www.mediaite.com###AdThrive_Footer_1_desktop
+www.mediaite.com###AdThrive_Footer_1_desktop.adthrive-ad.adthrive-footer.adthrive-footer-1.adthrive-ad-cls.adthrive-sticky
+www.mediaite.com##.adthrive-footer-message
 www.mediaite.com##.adthrive-sticky
 www.mediaite.com##.afs_ads
 www.mediaite.com##a[href="https://my.getadmiral.com/login/"]
 www.mediaite.com##a[href="https://www.mediaite.com/subscribe"]
+www.mediaite.com###ccpaTag
+www.mediaite.com###confiant_tag_holder
 ! www.mediaite.com##.c-adblocker-modal-content
 ! www.mediaite.com##.c-adblocker-modal-logo
 ! www.mediaite.com##.c-adblocker-modal-message
@@ -808,10 +817,14 @@ www.mediaite.com##.c-skip
 www.mediaite.com##div[id^="div-gpt-"]
 www.mediaite.com##div[id^="google_ads_iframe_"]
 www.mediaite.com###fb-pxl-ajax-code
+www.mediaite.com##.fb_reset
+www.mediaite.com###fb-root
+www.mediaite.com###fb-root.fb_reset
 ! www.mediaite.com##.has-adblock-detected
 www.mediaite.com##[id^="div-gpt-ad"]
 www.mediaite.com##[id^="google_ads_iframe"]
 www.mediaite.com##[id*="ScriptRoot"]
+www.mediaite.com###IL_IFR_DIV0
 www.mediaite.com##.jw-submenu-sharing
 www.mediaite.com###nav-subscribe
 www.mediaite.com##.o-account
@@ -831,6 +844,8 @@ www.mediaite.com##.o-skip
 www.mediaite.com##.o-subscribe-flair
 www.mediaite.com##.o-zergnet
 www.mediaite.com##.promo-unit
+www.mediaite.com##^script:has-text(fb_pxl_code)
+www.mediaite.com##^script:has-text(wpcf7mailsent)
 www.mediaite.com###sidebar-1
 www.mediaite.com###sidebar-hook-1
 www.mediaite.com###sidebar-hook-2
