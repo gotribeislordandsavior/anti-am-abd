@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202301121437
+! Version: 202307261807
 ! Title: GT's AM ABP List
-! Last modified: 12 Jan 2023 14:37 UTC
+! Last modified: 26 Jul 2023 18:07 UTC
 ! Expires: 1 hour (update frequency)
 ||a2846.casalemedia.com^$domain=mediaite.com
 ||a2.adform.net^$domain=mediaite.com
@@ -781,6 +781,7 @@ www.mediaite.com#@#.promo-sidebar
 ||mediaite.com^$websocket
 www.mediaite.com#$#.adthrive-video-player{min-height: 413.438px !important}
 www.mediaite.com#$#.adthrive-video-player{padding-bottom: 0px !important}
+www.mediaite.com#$#.o-jwvideo{padding-bottom: calc(56.25%) !important}
 www.mediaite.com##.ad-placement
 www.mediaite.com##.adthrive-ad
 www.mediaite.com##.adthrive-ad-cls
